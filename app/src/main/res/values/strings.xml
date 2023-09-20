@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">holoDex</string>
-    <string name="action_settings">Settings</string>
 
     <!--  Navigation  -->
     <string name="label_detail">Detail</string>
     <string name="label_about">About</string>
+
+    <!--  Recycler Item  -->
+    <string name="format_group">%1$s - [%2$s]</string>
 </resources>
