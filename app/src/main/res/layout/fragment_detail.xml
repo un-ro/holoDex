@@ -7,9 +7,9 @@
     tools:context=".ui.detail.DetailFragment">
 
     <TextView
+        android:id="@+id/tv_talent_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="dev: DetailFragment"
         android:textAlignment="center" />
 
 </LinearLayout>
