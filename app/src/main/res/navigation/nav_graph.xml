@@ -20,7 +20,11 @@
         android:id="@+id/detailFragment"
         android:name="dev.unero.holodex.ui.detail.DetailFragment"
         android:label="@string/label_detail"
-        tools:layout="@layout/fragment_detail" />
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="talent"
+            app:argType="dev.unero.holodex.data.Talent" />
+    </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="dev.unero.holodex.ui.about.AboutFragment"
