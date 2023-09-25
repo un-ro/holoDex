@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import dev.unero.holodex.databinding.FragmentHomeBinding
 import dev.unero.holodex.ui.home.adapter.TalentAdapter
-import dev.unero.holodex.utils.TalentGenerator
+import dev.unero.holodex.utils.DataHelper
 
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding as FragmentHomeBinding
 
-    private val talentAdapter by lazy { TalentAdapter(TalentGenerator.talents(), requireContext()) }
+    private val talentAdapter by lazy { TalentAdapter(DataHelper.talents(), requireContext()) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
