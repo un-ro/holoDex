@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Source: https://logos-world.net/hololive-production-logo  -->
+    <color name="holo_turqoise">#4d9eed</color>
+    <color name="holo_pewter">#93A8AC</color>
 </resources>

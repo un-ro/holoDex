@@ -29,7 +29,7 @@ class DetailFragment : Fragment() {
         val actionBar = (requireActivity() as AppCompatActivity).supportActionBar
         actionBar?.title = args.talent.name
 
-        binding.tvTalentName.text = args.talent.name
+        binding.tvTalentDescription.text = getText(args.talent.description)
     }
 
     override fun onDestroyView() {
