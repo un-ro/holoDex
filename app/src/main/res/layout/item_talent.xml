@@ -2,9 +2,10 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    style="?attr/materialCardViewElevatedStyle"
     app:cardUseCompatPadding="true"
-    app:cardCornerRadius="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
@@ -13,18 +14,24 @@
         android:layout_margin="8dp"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/iv_talent_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:importantForAccessibility="no" />
+
         <TextView
             android:id="@+id/tv_talent_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            style="@style/MaterialAlertDialog.Material3.Title.Text"
             tools:text="Amelia Watson" />
 
         <TextView
             android:id="@+id/tv_talent_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            style="@style/MaterialAlertDialog.Material3.Body.Text"
             tools:text="EN - [HoloMyth]" />
 
     </LinearLayout>

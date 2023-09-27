@@ -7,4 +7,64 @@
 
     <!--  Recycler Item  -->
     <string name="format_group">%1$s - [%2$s]</string>
+
+    <!--  Talent About [ Long string ]  -->
+    <string name="desc_risdu">
+        Hewwrroo everyone ~!!”; “Purupuru ganbari Risu ~!”
+        A squirrel girl from a magical forest.
+        She was lost in the human world, but due to certain circumstances, she ends up living in the home of a kind older sister.
+        To return the favor, she decides to become a VTuber.
+        Risu act, most of the time, just like a squirrel she is. She loves to do subtle pranks on people, shy with new people, and love to tease her viewer. Her laugh is also one of her unique characterictic.
+    </string>
+    <string name="desc_anya">
+        "Good day! This is Anya Melfissa from hololive ID 2nd Generation."
+        An ancient weapon known as “Keris,” she was granted human form through a mystical ritual performed by her master.
+        She’s just about always sleeping or playing games. Living mostly alone for so long has made her tend to be apathetic towards things and people she’s uninterested in, but when talking about things she likes, she can be quite childlike and passionate.
+        Her base personality is actually apathetic, especially towards humans. Don’t let looks fool you - that’s what every foolish human always does to themselves somehow.
+    </string>
+    <string name="desc_ollie">
+        "ZOMBANWA!! SUPER KAWAII ZOMBIE IDOL, KU KU KU KUREIJI OLLIE DESU~!!"
+        A zombie high school girl risen from her grave. She headed home, relying on memories retained from when she was still alive.
+        Upon arriving, she discovered it had turned into a ramen shop! And so, in order to reclaim her house, she decided to become a VTuber.
+        Ollie has a very big tendency to scream. Always lower your volumes during her streams.
+    </string>
+    <string name="desc_zeta">
+        She is the mysterious 7th recruit of The Secret Archive Unit that has a full license to collect virtual data.
+        Despite her being a promising rookie, who is also known as codename V.7, she turns clumsy when things are not going exactly according to the manual.
+        It was initially a lonely mission to infiltrate the virtual world, but now she had found comfort here. Will this mission end up leading her to a new destiny instead…?
+    </string>
+    <string name="desc_kobo">
+        A carefree girl who lives in the topmost room of a lighthouse, she is actually the bloodline of the strongest rain shaman in the area. She has great potential to control rain, but she does not like to do it as a task.
+        In order to win back her Rain Master title, she needs to prove to her family that she can keep their rain shaman service afloat. Not only does she have to train daily, but she also needs to adopt some sort of virtual marketing strategy to succeed!
+    </string>
+    <string name="desc_gura">
+        A descendant of the Lost City of Atlantis, who swam to Earth while saying, "It's so boring down there LOLOLOL!"
+        Gura bought her clothes (and her shark hat) in the human world and she really loves them. In her spare time, she enjoys talking to marine life.
+    </string>
+    <string name="desc_ame">
+        Amelia heard strange rumors online surrounding hololive: talking foxes, magical squirrels, superhuman dogs, and more. Soon after beginning her investigation on hololive, and just out of interest, she decided to become an idol herself!
+        She loves to pass her time training her reflexes with FPS games, and challenging herself with puzzle games. "It's elementary, right?"
+    </string>
+    <string name="desc_lui">
+        The executive officer of Secret Society holoX.
+        As holoX\'s point of contact and the one in charge of external affairs, she is the de facto leader of the group, handling matters that the founder cannot.
+        While she may seem aloof and standoffish at first glance, she is a compassionate person who cares a lot for her subordinates.
+        Unfortunately, she is also rather prone to screwing up in crucial moments.
+    </string>
+    <string name="desc_subaru">
+        "'Sup! I'm Oozora Subaru from hololive 2nd Generation!"
+        The manager of an MMA team and an e-sports club. A bright and cheerful girl full of spirit, she can interact with anyone and everyone without hesitation. She\'s currently working hard on her own pro-gamer skills.
+        Another day of giving everything I\'ve got as a manager!!!!!!!!!!!
+    </string>
+    <string name="desc_sora">
+        “Hey, Sora-tomo! How are you all doing? It\'s me, Tokino Sora!”
+        hololive Production\'s first virtual idol, debuting on September 7, 2017. She loves horror games and singing, and has always dreamed of performing in Yokohama Arena.
+        She signed a record deal with Victor Entertainment in March 2019. She is active in various forms of media, such as appearing in Watanuki-san Chi no and hosting Sora Ao to!, a radio show.
+        She held her first solo concert, Dream!, on October 6, 2019, taking one step closer to her ultimate goal.
+    </string>
+    <string name="desc_sui">
+        "It's your shooting star, your diamond in the rough, idol VTuber Hoshimachi Suisei!"
+        A forever18 VTuber who deeply loves singing and idols.
+        Her dream is to one day hold a live concert in Tokyo Budokan.
+    </string>
 </resources>

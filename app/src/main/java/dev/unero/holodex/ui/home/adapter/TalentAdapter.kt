@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import dev.unero.holodex.R
 import dev.unero.holodex.data.Talent
 import dev.unero.holodex.databinding.ItemTalentBinding
@@ -29,6 +30,10 @@ class TalentAdapter(
                 tvTalentGroup.text = context.getString(
                     R.string.format_group, talent.group, talent.region
                 )
+                ivTalentAvatar.apply {
+                    load(talent.photo)
+                    contentDescription = talent.name
+                }
 
                 root.setOnClickListener {
                     val action = HomeFragmentDirections.actionHomeToDetail(talent)

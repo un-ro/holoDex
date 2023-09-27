@@ -10,7 +10,7 @@ data class Talent(
     val group: String,
     val region: String,
     val debutDate: LocalDate,
-    val description: String,
+    val description: Int,
     val youtube: String,
     val photo: String,
 ): Parcelable
