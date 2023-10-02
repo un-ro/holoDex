@@ -31,7 +31,11 @@ class TalentAdapter(
                     R.string.format_group, talent.region, talent.group
                 )
                 ivTalentAvatar.apply {
-                    load(talent.photo)
+                    load(talent.photo) {
+                        crossfade(true)
+                        placeholder(R.drawable.holodex)
+                        error(R.drawable.ic_error)
+                    }
                     contentDescription = talent.name
                 }
 
