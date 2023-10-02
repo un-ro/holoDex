@@ -137,14 +137,4 @@ object DataHelper {
             "https://hololive.hololivepro.com/wp-content/uploads/2023/04/Hoshimachi-Suisei_list_thumb-1.png"
         )
     )
-
-    fun searchTalent(query: String): List<Talent> {
-        val talents = talents()
-
-        return talents.filter { talent ->
-            talent.name.contains(query, true) ||
-                    talent.group.contains(query, true) ||
-                    talent.region.contains(query, true)
-        }
-    }
 }

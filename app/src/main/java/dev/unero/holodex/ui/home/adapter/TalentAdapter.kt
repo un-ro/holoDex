@@ -15,11 +15,6 @@ class TalentAdapter(
     private var data: List<Talent>,
     private val context: Context
 ): RecyclerView.Adapter<TalentAdapter.ViewHolder>() {
-
-    fun setData(newData: List<Talent>) {
-        data = newData
-    }
-
     class ViewHolder(
         private val binding: ItemTalentBinding,
         private val context: Context
