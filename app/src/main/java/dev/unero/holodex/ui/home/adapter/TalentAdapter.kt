@@ -28,7 +28,7 @@ class TalentAdapter(
             binding.apply {
                 tvTalentName.text = talent.name
                 tvTalentGroup.text = context.getString(
-                    R.string.format_group, talent.group, talent.region
+                    R.string.format_group, talent.region, talent.group
                 )
                 ivTalentAvatar.apply {
                     load(talent.photo)
