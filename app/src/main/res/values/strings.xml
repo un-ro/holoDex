@@ -93,4 +93,7 @@
     <!--  About  -->
     <string name="name_creator" translatable="false">Unero</string>
     <string name="email_creator" translatable="false">ramadhanbhg@gmail.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_ver">Submission Akhir Aplikasi Android Sederhana</string>
 </resources>
