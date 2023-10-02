@@ -6,9 +6,28 @@
     <string name="label_about">About</string>
 
     <!--  Recycler Item  -->
-    <string name="format_group">%1$s - [%2$s]</string>
+    <string name="format_group">[%1$s] - %2$s</string>
+
+    <!--  Talent Detail  -->
+    <string name="label_debut">Debut Date</string>
+    <string name="label_birthdate">Birthday</string>
+    <string name="label_group">Region - Group</string>
 
     <!--  Talent About [ Long string ]  -->
+    <string name="desc_roberu">
+        The master of the hideaway bar: ROBEL.
+        He usually streams before the bar opens or whenever he\'s free.
+        He talks to anyone quite openly, but it is hard to guess what he is thinking.
+        He drinks a fair bit but can\'t handle his alcohol well.
+        His motto is: People are willing to believe whatever they want.
+    </string>
+    <string name="desc_regis">
+        The masses chose not to act. So I\'ll take a stand in their stead.
+        The founder of Adventurer\'s Guild TEMPUS.
+        The first-ever adventurer to set foot in Elysium, he dislikes stagnation and the status quo.
+        He is childish at heart and generally bungles everything he touches, and yet he is inexplicably popular among his peers.
+        His earnest straightforwardness may well lead to him being called a "hero" one day.
+    </string>
     <string name="desc_risdu">
         Hewwrroo everyone ~!!”; “Purupuru ganbari Risu ~!”
         A squirrel girl from a magical forest.
@@ -67,4 +86,7 @@
         A forever18 VTuber who deeply loves singing and idols.
         Her dream is to one day hold a live concert in Tokyo Budokan.
     </string>
+    <string name="lbl_btn_youtube">Youtube</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_profile">Profile</string>
 </resources>
