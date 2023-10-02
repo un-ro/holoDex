@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     override fun onPrepareOptionsMenu(menu: Menu): Boolean {
         super.onPrepareOptionsMenu(menu)
 
-        val about = menu.findItem(R.id.action_about)
+        val about = menu.findItem(R.id.about_page)
 
         about.isVisible = isHome
 
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_about -> {
+            R.id.about_page -> {
                 findNavController(R.id.host_fragment).navigate(R.id.actionHomeToAbout)
                 true
             }
