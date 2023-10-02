@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">holoDex</string>
+    <string name="app_ver">Submission Akhir Aplikasi Android Sederhana</string>
 
     <!--  Navigation  -->
     <string name="label_detail">Detail</string>
@@ -93,7 +94,8 @@
     <!--  About  -->
     <string name="name_creator" translatable="false">Unero</string>
     <string name="email_creator" translatable="false">ramadhanbhg@gmail.com</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_ver">Submission Akhir Aplikasi Android Sederhana</string>
+
+    <!--  Share  -->
+    <string name="btn_lbl_share">Share</string>
+    <string name="format_share">Check out this talent from holo %1$s: %2$s, with youtube link %3$s</string>
 </resources>

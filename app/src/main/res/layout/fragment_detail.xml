@@ -80,16 +80,34 @@
             style="@style/TextAppearance.Material3.BodyMedium"
             tools:text="@string/desc_ame"/>
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_youtube"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0000"
-            android:textColor="#EFE2E2"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:textStyle="bold"
-            android:text="@string/lbl_btn_youtube" />
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp" >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF0000"
+                android:textColor="#EFE2E2"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="@string/lbl_btn_youtube" />
+
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_lbl_share" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

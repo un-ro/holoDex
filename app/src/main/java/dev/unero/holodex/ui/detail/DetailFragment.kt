@@ -39,9 +39,6 @@ class DetailFragment : Fragment() {
 
     private fun setupUI(talent: Talent) {
         binding.apply {
-
-            // data object: LocalDate.of(2018, 3, 22)
-            // format: 22 March 2018
             tvTalentBirthdate.text = talent.birthday.format(DateTimeFormatter.ofPattern("dd MMMM"))
             tvTalentDebut.text = talent.debutDate.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"))
             tvTalentGroup.text = getString(R.string.format_group, talent.region, talent.group)
@@ -53,13 +50,29 @@ class DetailFragment : Fragment() {
             }
 
             btnYoutube.setOnClickListener {
-                it.context.startActivity(
+                requireContext().startActivity(
                     talent.youtube.let { yt ->
                         android.content.Intent(
                             android.content.Intent.ACTION_VIEW,
                             android.net.Uri.parse(yt)
                         )
                     }
+                )
+            }
+
+            btnShare.setOnClickListener {
+                requireContext().startActivity(
+                    android.content.Intent.createChooser(
+                        android.content.Intent().apply {
+                            action = android.content.Intent.ACTION_SEND
+                            putExtra(
+                                android.content.Intent.EXTRA_TEXT,
+                                getString(R.string.format_share, talent.region, talent.name, talent.youtube)
+                            )
+                            type = "text/plain"
+                        },
+                        getString(R.string.btn_lbl_share)
+                    )
                 )
             }
         }
