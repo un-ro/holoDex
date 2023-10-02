@@ -32,7 +32,7 @@
             android:layout_marginBottom="8dp" >
             <TableRow>
                 <TextView
-                    android:text="@string/label_debut"
+                    android:text="@string/lbl_debut"
                     style="@style/TextAppearance.Material3.BodyMedium"/>
                 <TextView
                     android:id="@+id/tv_talent_debut"
@@ -43,7 +43,7 @@
 
             <TableRow>
                 <TextView
-                    android:text="@string/label_birthdate"
+                    android:text="@string/lbl_birthdate"
                     style="@style/TextAppearance.Material3.BodyMedium" />
                 <TextView
                     android:id="@+id/tv_talent_birthdate"
@@ -53,7 +53,7 @@
             </TableRow>
             <TableRow>
                 <TextView
-                    android:text="@string/label_group"
+                    android:text="@string/lbl_group"
                     style="@style/TextAppearance.Material3.BodyMedium" />
                 <TextView
                     android:id="@+id/tv_talent_group"
