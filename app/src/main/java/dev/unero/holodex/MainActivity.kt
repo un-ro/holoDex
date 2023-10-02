@@ -34,18 +34,13 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        // If fragment is splash, hide toolbar
         navController.addOnDestinationChangedListener{ _, destination, _ ->
             binding.appbar.visibility = if (destination.id == R.id.splashFragment) View.GONE else View.VISIBLE
-
-            // Back button only visible on detail / about page
-            //binding.toolbar.navigationIcon = if (destination.id == R.id.detailFragment || destination.id == R.id.aboutFragment) getDrawable(R.drawable.ic_baseline_arrow_back_24) else null
 
             isHome = destination.id == R.id.homeFragment
             invalidateOptionsMenu()
         }
 
-        //appBarConfiguration = AppBarConfiguration(navController.graph)
         appBarConfiguration = AppBarConfiguration(setOf(R.id.homeFragment))
         setupActionBarWithNavController(navController, appBarConfiguration)
     }
